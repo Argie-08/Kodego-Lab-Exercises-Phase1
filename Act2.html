@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <style>
+    section {
+      height: 100vh;
+      font-size: 40px;
+    }
+    td {
+      border: solid black 1px;
+    }
+  </style>
+  <body style="background-color: rgb(197, 248, 231)">
+    <nav
+      style="
+        background-color: aqua;
+        height: 50px;
+        font-size: 30px;
+        text-align: center;
+        padding-top: 10px;
+      "
+    >
+      <a href="#activities" style="text-decoration: none">Activities</a>
+      <a
+        href="#media"
+        style="margin-left: 100px; margin-right: 100px; text-decoration: none"
+        >Media</a
+      >
+      <a href="#contact-form" style="text-decoration: none">Contact Form</a>
+    </nav>
+    <section
+      id="activities"
+      style="padding-top: 0px; background-color: aquamarine"
+    >
+      <h3 style="background-color: rgb(107, 219, 182); padding-left: 50px">
+        Activities
+      </h3>
+      <table width="80%" align="center" style="padding-top: 50px">
+        <thead>
+          <tr style="text-align: center; font-weight: bold; font-size: 30px">
+            <td>Time</td>
+            <td>Monday</td>
+            <td>Tuesday</td>
+            <td>Wednesday</td>
+            <td>Thursday</td>
+            <td>Friday</td>
+            <td>Saturday</td>
+            <td>Sunday</td>
+          </tr>
+        </thead>
+        <tbody>
+          <tr
+            style="
+              font-family: Verdana, Geneva, Tahoma, sans-serif;
+              font-size: 20px;
+            "
+          >
+            <td>12:00 Noon</td>
+            <td>Lunch</td>
+            <td>Lunch</td>
+            <td>Lunch</td>
+            <td>Lunch</td>
+            <td>Lunch</td>
+            <td>Lunch</td>
+            <td>Lunch</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+    <section id="media" style="background-color: rgb(131, 219, 190)">
+      <h3 style="background-color: rgb(130, 199, 176); padding-left: 50px">
+        Media
+      </h3>
+      <div>
+        <img src="./m2.jpg" alt="" style="height: 100%; width: 30%" />
+        <img src="./m3.jpg" alt="" style="height: 460px; width: 30%" />
+        <video
+          src="./Ramp.mp4"
+          style="height: 530px; width: 38%"
+          controls
+        ></video>
+      </div>
+      <div>
+        <span style="margin-right: 370px">Windranger</span>
+        <span style="margin-right: 270px">Phantom Assasin</span>
+        <span>PA Rampage</span>
+      </div>
+    </section>
+    <section id="contact-form" style="background-color: rgb(81, 143, 122)">
+      <h3 style="padding-left: 50px; background-color: rgb(86, 119, 108)">
+        Contact Form
+      </h3>
+      <div>
+        <input type="text" placeholder="Name" size="103" />
+      </div>
+      <div>
+        <select name="" id="">
+          <option value="">Choose Transaction</option>
+          <option value="">General Inquiry</option>
+          <option value="">Product and Services</option>
+          <option value="">Careers</option>
+        </select>
+      </div>
+      <div>
+        <textarea name="" id="" cols="100" rows="40" style="font-style: italic">
+Message</textarea
+        >
+      </div>
+      <div>
+        <input type="submit" />
+      </div>
+    </section>
+  </body>
+</html>
