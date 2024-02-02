@@ -1,0 +1,102 @@
+/* * {
+  border: dotted red 1px;
+} */
+#backg {
+  height: 100vh;
+  background-color: #27374d;
+}
+h1 {
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 60px;
+  color: aliceblue;
+}
+#backg1 {
+  background-color: rgb(30, 31, 31);
+  width: 50%;
+  display: inline-block;
+}
+#profpic {
+  width: 100%;
+  height: 720px;
+  margin-top: 80px;
+}
+#name1 {
+  display: inline-block;
+  position: absolute;
+  top: 18%;
+  right: 11%;
+}
+#name2 {
+  display: inline-block;
+  position: absolute;
+  top: 35%;
+  left: 40%;
+}
+p,
+h3 {
+  font-family: sans-serif;
+  font-size: 20px;
+  color: rgb(166, 213, 247);
+}
+#name3 {
+  position: absolute;
+  top: 50%;
+  left: 40%;
+}
+li {
+  font-size: 20px;
+  color: aliceblue;
+  font-style: italic;
+  list-style: none;
+}
+#name4 {
+  display: inline-block;
+  position: absolute;
+  top: 70%;
+  left: 40%;
+}
+#dota {
+  width: 30%;
+  height: 50%;
+  margin-right: 30px;
+}
+#dota:hover {
+  width: 31%;
+  height: 51%;
+  transition: 0.5s;
+}
+#dev {
+  width: 31%;
+}
+#dev:hover {
+  width: 32%;
+  transition: 0.5s;
+}
+#name5 {
+  display: inline-block;
+}
+button {
+  position: absolute;
+  bottom: 80px;
+  right: 80px;
+  padding: 0.5rem 2rem;
+  border-radius: 10px;
+  background-color: #27374d;
+  color: aliceblue;
+}
+button:hover {
+  background-color: #47638a;
+  transition: 0.5s;
+  color: rgb(144, 155, 160);
+}
+.boldcolor {
+  color: rgb(101, 104, 107);
+}
+#pwidth {
+  width: 95%;
+}
+#famname {
+  color: rgb(140, 145, 150);
+  font-size: 80px;
+}
