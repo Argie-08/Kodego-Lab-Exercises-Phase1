@@ -83,8 +83,6 @@ button {
   padding: 0.5rem 2rem;
   border-radius: 10px;
   background-color: #27374d;
-  color: aliceblue;
-  font-size: 20px;
 }
 button:hover {
   background-color: #47638a;
@@ -100,4 +98,12 @@ button:hover {
 #famname {
   color: rgb(140, 145, 150);
   font-size: 100px;
+}
+a {
+  color: aliceblue;
+  font-size: 20px;
+  text-decoration: none;
+}
+a:hover {
+  color: rgb(167, 173, 179);
 }
