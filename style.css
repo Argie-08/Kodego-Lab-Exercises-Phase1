@@ -1,6 +1,7 @@
-/* * {
-  border: dotted red 1px;
-} */
+* {
+  /* border: dotted red 1px; */
+  box-sizing: border-box;
+}
 #backg {
   height: 100vh;
   background-color: #27374d;
@@ -106,4 +107,19 @@ a {
 }
 a:hover {
   color: rgb(167, 173, 179);
+}
+#buttonlast {
+  background-color: #233144;
+  padding: 10px 20px;
+  position: absolute;
+  bottom: 100px;
+  right: 150px;
+  border-radius: 10px;
+  border: #121a24 solid 1px;
+}
+#buttonlast:hover {
+  background-color: #47638a;
+  transition: 0.5s;
+  color: rgb(144, 155, 160);
+  border: #47638a solid 1px;
 }
